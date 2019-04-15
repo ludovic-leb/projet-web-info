@@ -1,0 +1,28 @@
+@media (min-width : 1200px) {
+  body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h1{
+    width: 45%;
+    font-family: "Sedgwick Ave Display", sans-serif;
+  }
+  ul{
+    list-style: none;
+  }
+  nav{
+    width: 60%;
+  }
+  nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+}
